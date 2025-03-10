@@ -3,40 +3,64 @@
 
     <head>
         <title>Lomake-esimerkki</title>
-        <form action="/koodi.php">
-            <fieldset style="border:1px solid black;">
-                <legend>Contact information:</legend>
-
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" value=" "> Preferred contact method<br>
-
-                <laber for="lname">Last name:</laber>
-                <input type="text" id="lname" name="lname" value=" ">
-                <input type="checkbox"> Email<br>
-
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" value=" ">
-                <input type="checkbox"> Telephone<br>
-
-                <label for="tphone">Telephone:</label>
-                <input type="text" id="tphone" name="tphone" value=" "><br><br>
-            </fieldset>
-        </form> <!--kommentit näin-->
     </head>
 
-    <head2>
-        <fieldset style="border:1px solid black;">
-            <legend>Feedback:</legend>
+    <body>
+        <h1>Lomake esimerkki</h1>
+        <form action="/koodi.php">
+            <fieldset style="width: 40%; border:1px solid black;">
+                <legend>Contact information:</legend>
+                <table>
+                    <tr>
+                        <td><label for="fname">First name:</label></td>
+                        <td><input type="text" id="fname" name="fname"> Preferred contact method:</td>
+                    </tr>
 
-            <label for="messub">Message subject:</label>
-            <input type="text" id="messub" name="messub" value=" "><br><br>
+                    <tr>
+                        <td>
+                            <laber for="lname">Last name:</label>
+                        </td>
+                        <td><input type="text" id="lname" name="lname"><input type="checkbox"> Email</td>
+                        <!--<td><input type="checkbox"></td>
+                        <td><label>Email</label></td>-->
+                    </tr>
 
-            <textarea name="message" rows="10" cols="50"></textarea><br>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" id="email" name="email"><input type="checkbox"> Telephone</td>
+                    </tr>
 
-            Attach a file: <input type="file" name="file"><br><br>
+                    <tr>
+                        <td><label for="tphone">Telephone:</label></td>
+                        <td><input type="text" id="tphone" name="tphone"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <!--kommentit näin-->
 
-            <input type="submit" value="Send">
-        </fieldset>
-    </head2>
+
+            <fieldset style="width: 40%; border:1px solid black;">
+                <legend>Feedback:</legend>
+                <table>
+                    <tr>
+                        <td><label for="messub">Message subject: </label><input type="text" id="messub" name="messub"
+                                value=" "></td>
+                    </tr>
+
+                    <tr>
+                        <td><textarea name="message" rows="10" cols="50"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>Attach a file: <input type="file" name="file"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Send"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
 
     </html> <!--kommentit näin-->
