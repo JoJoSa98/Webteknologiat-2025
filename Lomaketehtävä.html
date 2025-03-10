@@ -1,0 +1,42 @@
+<DOCTYPE! html> <!--kommentit näin-->
+    <html lang="fi">
+
+    <head>
+        <title>Lomake-esimerkki</title>
+        <form action="/koodi.php">
+            <fieldset style="border:1px solid black;">
+                <legend>Contact information:</legend>
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=" "> Preferred contact method<br>
+
+                <laber for="lname">Last name:</laber>
+                <input type="text" id="lname" name="lname" value=" ">
+                <input type="checkbox"> Email<br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" value=" ">
+                <input type="checkbox"> Telephone<br>
+
+                <label for="tphone">Telephone:</label>
+                <input type="text" id="tphone" name="tphone" value=" "><br><br>
+            </fieldset>
+        </form> <!--kommentit näin-->
+    </head>
+
+    <head2>
+        <fieldset style="border:1px solid black;">
+            <legend>Feedback:</legend>
+
+            <label for="messub">Message subject:</label>
+            <input type="text" id="messub" name="messub" value=" "><br><br>
+
+            <textarea name="message" rows="10" cols="50"></textarea><br>
+
+            Attach a file: <input type="file" name="file"><br><br>
+
+            <input type="submit" value="Send">
+        </fieldset>
+    </head2>
+
+    </html> <!--kommentit näin-->
