@@ -9,11 +9,13 @@
         <h1>Lomake esimerkki</h1>
         <form action="/koodi.php">
             <fieldset style="width: 40%; border:1px solid black;">
-                <legend>Contact information:</legend>
+                <legend>Contact information:</legend> <!--Luo "laatikon" sisällön ympärille-->
                 <table>
                     <tr>
                         <td><label for="fname">First name:</label></td>
+                        <!--label tekee tekstikentän ennen input kenttää-->
                         <td><input type="text" id="fname" name="fname"> Preferred contact method:</td>
+                        <!--input type="text" luo tekstikentän johon voi kirjoittaa-->
                     </tr>
 
                     <tr>
@@ -53,10 +55,12 @@
 
                     <tr>
                         <td>Attach a file: <input type="file" name="file"></td>
+                        <!--Sallii tiedostojen liittämisen sivulle-->
                     </tr>
 
                     <tr>
                         <td><input type="submit" value="Send"></td>
+                        <!--submit luo "napin" joka lähettää tiedot sivustolle-->
                     </tr>
                 </table>
             </fieldset>
