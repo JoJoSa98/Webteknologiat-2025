@@ -4,90 +4,93 @@
 <head>
     <title>Ensimmäinen HTML sivu</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="Tyylit/tyylit.css">
 </head>
 
 <body>
-    <h1>Ensimmäinen HTML sivu!</h1>
-    <p><b>Tekstikappale</b></p>
-    <p>
-        <a href="https://lab.fi">Linkki LABin etusivulle</a>
-    </p>
-    <img src="Kuvat/html5logo.png" alt="HTML5 logo" width="100" height="100">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-        alt="HTML5 logo and wordmark.svg" height="512" width="512">
+    <div class="content">
+        <h1>Ensimmäinen HTML sivu!</h1>
+        <p><b>Tekstikappale</b></p>
+        <p>
+            <a href="https://lab.fi">Linkki LABin etusivulle</a>
+        </p>
+        <img src="Kuvat/html5logo.png" alt="HTML5 logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+            alt="HTML5 logo and wordmark.svg">
 
-    <table style="border:1px solid black;">
-        <tr>
-            <th>Tagi</th>
-            <th>Käyttötarkoitus</th>
-        </tr>
-        <tr>
-            <td style="border:1px solid orangered;">&lt;h1&gt;</td>
-            <td style="border:1px solid orangered;">Ylimmän tason otsikko</td>
-        </tr>
-        <tr>
-            <td style="border:1px solid red;">&lt;p&gt;</td>
-            <td style="border:1px solid red;">Tekstikappale</td>
-        </tr>
-    </table>
+        <table>
+            <tr>
+                <th>Tagi</th>
+                <th>Käyttötarkoitus</th>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt;</td>
+                <td>Ylimmän tason otsikko</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Tekstikappale</td>
+            </tr>
+        </table>
 
-    <h2>Lista</h2>
-    <ol>
-        <li>Ensimmäinen</li>
-        <li>Toinen</li>
-        <li>Kolmas</li>
-    </ol>
-
-
-    <p>
-        Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
-        Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
-        Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
-
-        <br>
-
-        Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
-        Pitkä teksti. Pitkä teksti. Pitkä teksti.
-    </p>
+        <h2>Lista</h2>
+        <ol>
+            <li>Ensimmäinen</li>
+            <li>Toinen</li>
+            <li>Kolmas</li>
+        </ol>
 
 
-    <h3>Tähän mennessä käymiäni kursseja</h3>
-    <img src="Kuvat/lab.jpg" alt="LAB logo" width="400" height="200">
-    <ul>
-        <li>Ohjelmoinnin perusteet</li>
-        <li>Taloushallinto</li>
-        <li>Tietokannat</li>
-        <li>Olio-ohjelmoinnin perusteet</li>
-    </ul>
+        <p>
+            Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
+            Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
+            Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
 
-    <p>
-        Labissa on meneillään seuraavat kurssit: Liike-elämän matematiikka,
-        <br>
-        datan hyödyntäminen liiketoiminnassa sekä webteknologiat.
-    </p>
+            <br>
 
-    <table style="border:1px solid black;">
-        <tr>
-            <th>Aika</th>
-            <th>Kurssi</th>
-        </tr>
-        <tr>
-            <td style="border:1px solid black;">Syksy</td>
-            <td style="border:1px solid black;">Ohjelmoinnin perusteet</td>
-        </tr>
-        <tr>
-            <td style="border:1px solid black;">Syksy</td>
-            <td style="border:1px solid black;">Taloushallinto</td>
-        </tr>
-        <tr>
-            <td style="border:1px solid black;">Kevät</td>
-            <td style="border:1px solid black;">Olio-ohjelmoinnin perusteet</td>
-        </tr>
-        <tr>
-            <td style="border:1px solid black;">Kevät</td>
-            <td style="border:1px solid black;">Webteknologiat</td>
-        </tr>
-    </table>
+            Pitkä teksti. Pitkä teksti. Pitkä teksti. Pitkä teksti.
+            Pitkä teksti. Pitkä teksti. Pitkä teksti.
+        </p>
+
+
+        <h3>Tähän mennessä käymiäni kursseja</h3>
+        <img src="Kuvat/lab.jpg" alt="LAB logo" width="400" height="200">
+        <ul>
+            <li>Ohjelmoinnin perusteet</li>
+            <li>Taloushallinto</li>
+            <li>Tietokannat</li>
+            <li>Olio-ohjelmoinnin perusteet</li>
+        </ul>
+
+        <p>
+            Labissa on meneillään seuraavat kurssit: Liike-elämän matematiikka,
+            <br>
+            datan hyödyntäminen liiketoiminnassa sekä webteknologiat.
+        </p>
+
+        <table>
+            <tr>
+                <th>Aika</th>
+                <th>Kurssi</th>
+            </tr>
+            <tr>
+                <td>Syksy</td>
+                <td>Ohjelmoinnin perusteet</td>
+            </tr>
+            <tr>
+                <td>Syksy</td>
+                <td>Taloushallinto</td>
+            </tr>
+            <tr>
+                <td>Kevät</td>
+                <td>Olio-ohjelmoinnin perusteet</td>
+            </tr>
+            <tr>
+                <td>Kevät</td>
+                <td>Webteknologiat</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 
