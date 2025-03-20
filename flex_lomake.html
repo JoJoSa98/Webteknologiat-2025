@@ -1,0 +1,71 @@
+<DOCTYPE! html> <!--kommentit näin-->
+    <html lang="fi">
+
+    <head>
+        <title>Lomake-esimerkki</title>
+        <link rel="stylesheet" href="Tyylit/tyylit.css">
+    </head>
+
+    <body>
+        <h1>Lomake esimerkki</h1>
+        <form action="/koodi.php">
+            <fieldset>
+                <legend>Contact information:</legend> <!--Luo "laatikon" sisällön ympärille-->
+                <table>
+                    <tr>
+                        <td><label for="fname">First name:</label></td>
+                        <!--label tekee tekstikentän ennen input kenttää-->
+                        <td><input type="text" id="fname" name="fname"> Preferred contact method:</td>
+                        <!--input type="text" luo tekstikentän johon voi kirjoittaa-->
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <laber for="lname">Last name:</label>
+                        </td>
+                        <td><input type="text" id="lname" name="lname"><input type="checkbox"> Email</td>
+                        <!--<td><input type="checkbox"></td>
+                        <td><label>Email</label></td>-->
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" id="email" name="email"><input type="checkbox"> Telephone</td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="tphone">Telephone:</label></td>
+                        <td><input type="text" id="tphone" name="tphone"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <!--kommentit näin-->
+
+
+            <fieldset>
+                <legend>Feedback:</legend>
+                <table>
+                    <tr>
+                        <td><label for="messub">Message subject: </label><input type="text" id="messub" name="messub"
+                                value=" "></td>
+                    </tr>
+
+                    <tr>
+                        <td><textarea name="message" rows="10" cols="50"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>Attach a file: <input type="file" name="file"></td>
+                        <!--Sallii tiedostojen liittämisen sivulle-->
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Send"></td>
+                        <!--submit luo "napin" joka lähettää tiedot sivustolle-->
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+
+    </html> <!--kommentit näin-->

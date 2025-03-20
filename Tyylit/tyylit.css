@@ -59,3 +59,15 @@ fieldset {
     border-radius: 20px;
     border-style: solid;
 }
+
+input[type=submit] {
+    background-color: whitesmoke;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+input[type=text] input[type=checkbox] {
+    background-color: red;
+    border-radius: 2px;
+}
