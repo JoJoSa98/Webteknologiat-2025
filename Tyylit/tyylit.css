@@ -55,9 +55,13 @@ h1 {
 fieldset {
     background-color: aliceblue;
     border-color: darkslategray;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 20px;
     border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 input[type=submit] {
@@ -69,5 +73,21 @@ input[type=submit] {
 
 input[type=text] input[type=checkbox] {
     background-color: red;
-    border-radius: 2px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

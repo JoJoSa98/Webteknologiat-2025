@@ -11,33 +11,51 @@
         <form action="/koodi.php">
             <fieldset>
                 <legend>Contact information:</legend> <!--Luo "laatikon" sisällön ympärille-->
-                <table>
-                    <tr>
-                        <td><label for="fname">First name:</label></td>
-                        <!--label tekee tekstikentän ennen input kenttää-->
-                        <td><input type="text" id="fname" name="fname"> Preferred contact method:</td>
-                        <!--input type="text" luo tekstikentän johon voi kirjoittaa-->
-                    </tr>
+                <div class="container">
+                    <div class="input-container">
+                        <h3>Anna henkilötietosi</h3>
+                    </div>
 
-                    <tr>
-                        <td>
-                            <laber for="lname">Last name:</label>
-                        </td>
-                        <td><input type="text" id="lname" name="lname"><input type="checkbox"> Email</td>
-                        <!--<td><input type="checkbox"></td>
-                        <td><label>Email</label></td>-->
-                    </tr>
+                    <div class="input-container">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
 
-                    <tr>
-                        <td><label for="email">Email:</label></td>
-                        <td><input type="text" id="email" name="email"><input type="checkbox"> Telephone</td>
-                    </tr>
+                    <div class="input-container">
+                        <laber for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname">
+                    </div>
+                </div>
 
-                    <tr>
-                        <td><label for="tphone">Telephone:</label></td>
-                        <td><input type="text" id="tphone" name="tphone"></td>
-                    </tr>
-                </table>
+                <div class="container">
+                    <div class="input-container">
+                        <h3>Anna yhteystiedot</h3>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="Email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="tphone">Telephone:</label>
+                        <input type="text" id="tphone" name="tphone">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="input-container">
+                        <h3>Preffered contact method</h3>
+                    </div>
+                    <div class="input-container">
+                        <label>Email</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="input-container">
+                        <label>Telephone</label>
+                        <input type="checkbox">
+                    </div>
+                </div>
             </fieldset>
             <!--kommentit näin-->
 
