@@ -6,11 +6,13 @@
         "sidebar main"
         "footer footer";
     height: 100vh;
+    margin-top: 50px;
 }
 
 .header {
     grid-area: header;
     background-color: rgb(238, 195, 79);
+    text-align: center;
 }
 
 .footer {
@@ -21,7 +23,8 @@
 
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(255, 180, 180);
+    background-color: rgb(13, 144, 24);
+    padding: 10px;
 }
 
 .main {
@@ -34,4 +37,8 @@
 
 .card-body {
     background-color: bisque;
+}
+
+.container {
+    margin-top: 50px;
 }

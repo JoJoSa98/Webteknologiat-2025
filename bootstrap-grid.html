@@ -13,6 +13,15 @@
 </head>
 
 <body>
+    <nav class="navbar fixed-top bg-primary">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 mx-auto">Grid asetteluesimerkki</span>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Hae" aria-label="Search">
+                <button class="btn btn-outline-success bg-white" type="submit">Hae</button>
+            </form>
+        </div>
+    </nav>
     <div class="grid-container"> <!-- Container for the grid layout -->
         <div class="sidebar"> <!-- Sidebar section -->
             <h4>Lista esimerkki</h4> <!-- Sidebar heading -->
@@ -24,17 +33,8 @@
             </ul>
         </div>
 
-        <div class="main"> <!-- Main content section -->
-            <nav class="navbar fixed-top bg-primary">
-                <div class="container-fluid">
-                    <span class="navbar-brand mb-0 h1">Grid asetteluesimerkki</span>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Hae" aria-label="Search">
-                        <button class="btn btn-info" type="submit">Hae</button>
-                    </form>
-                </div>
-            </nav>
-            <div class="container" <div class="row">
+        <div class="main container"> <!-- Main content section -->
+            <div class="row">
                 <div class="card text-center col-6 col-md-4 col-lg-3">
                     <div class="card-header">
                         Ensimmäinen kortti
@@ -146,15 +146,12 @@
                         <a href="#" class="btn btn-secondary">Peruuta</a>
                     </div>
                 </div>
-
-
             </div>
         </div>
-    </div>
 
-    <div class="footer"> <!-- Footer section -->
-        <h3>Webteknologia LLPRIT24s</h3> <!-- Footer content -->
-    </div>
+        <div class="footer"> <!-- Footer section -->
+            <h3>Webteknologia LLPRIT24s</h3> <!-- Footer content -->
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
